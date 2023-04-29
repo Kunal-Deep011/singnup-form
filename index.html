@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+ <div id="main-page">
+    <header>
+        <h3>Header</h3>
+        <div>
+            <a href="./index.html"><span class="left-span">Signup</span></a>
+            <a onclick="profile()"><span>Profile</span></a>
+        </div>
+      
+     </header>
+     <hr>
+     <div id="alert1"></div>
+     <section>
+        <form>
+          <h1>SignUp</h1>
+          <div>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required>
+          </div>
+          <hr>
+          <div>
+            <label for="email"> Email</label>
+            <input type="email" id="email" required>
+          </div>
+          <hr>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+          </div>
+          <hr>
+          <div>
+            <label for="confirm">Confirm Password</label>
+            <input type="password" id="confirm" required>
+          </div>
+          <hr>
+          <div class="msg"></div>
+          <div>
+            <button  id="btn" type="submit">Signup</button>
+           </div>
+        </form>   
+     </section>
+ </div>
+ <!--<div class="profile-container">
+    <header>
+        <h3>Header</h3>
+        <div>
+            <span class="left-span">Signup</span>
+            <span>Profile</span>
+        </div>
+        
+     </header>
+     <hr>
+     <div class="profile-box">
+          <div id=>Profile</div>
+          <div id="para-1">Full Name : </div>
+          <div id="para-2">Email : </div>
+          <div id="para-3">Password : </div>
+          <div><button id="back-Off">Logout</button></div>
+     </div>
+ </div>-->
+
+    <script src="./script.js"></script>
+</body>
+</html>
